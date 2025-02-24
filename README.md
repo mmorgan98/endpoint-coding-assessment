@@ -4,9 +4,9 @@
 ## SETUP
 1. Python version: 3.12.3
 2. Clone repo
-3. run main script:  ```python3 directories.py instructions.txt```
+3. run main script:  ```python3 directories.py <instructions_file_name>```
 
-      Note: change "instructions.txt"  to which ever file name you are using if not the default name.
+      Note: change '<instructions_file_name>'  to which ever file name you are using. Default is "instructions.txt" if no filename is specified.
 
 
 ## INSTRUCTION TYPES
