@@ -104,7 +104,8 @@ class InstructionsParser:
             folder.list_hierarchy()
     
 if __name__ == "__main__":
-    parser = InstructionsParser(sys.argv[-1])
+    filename = sys.argv[1] if len(sys.argv) > 1 else "instructions.txt"
+    parser = InstructionsParser(filename)
     instructions = None
     try:
         instructions = parser.parse()
